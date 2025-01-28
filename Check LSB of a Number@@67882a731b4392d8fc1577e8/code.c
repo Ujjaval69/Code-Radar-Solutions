@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int a;
+    int a,lsb;
     scanf("%d",&a);
     lsb= a & 1;
     if (lsb==1){
