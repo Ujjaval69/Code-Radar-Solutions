@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
-    int a,b;
-    scanf("%d" "%d",&a,&b);
-    lsb= a&b;
+    int a;
+    scanf("%d",&a);
+    lsb= a&1
     if (lsb==1){
         printf("Set");
     
