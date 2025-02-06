@@ -7,7 +7,7 @@ int main(){
     }elseif(a==0){
         printf("Zero");
     }else{
-        print("Negative");
+        printf("Negative");
     }
     return 0;
 }
