@@ -27,7 +27,7 @@ int main(){
     }else if(a==12){
         printf("December");
     }else{
-        printf("Invalid month")
+        printf("Invalid month");
     }
     return 0;
 }
