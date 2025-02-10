@@ -12,7 +12,7 @@ int main() {
     else if (n % 2 == 0 || n % 3 == 0 || n % 5 == 0 || n % 7 == 0 || n % 11 == 0 || 
              n % 13 == 0 || n % 17 == 0 || n % 19 == 0 || n % 23 == 0 || n % 29 == 0 || 
              n % 31 == 0 || n % 37 == 0 || n % 41 == 0 || n % 43 == 0 || n % 47 == 0) 
-        printf("Not prime");
+        printf("Not Prime");
     else 
         printf("Prime");
 
