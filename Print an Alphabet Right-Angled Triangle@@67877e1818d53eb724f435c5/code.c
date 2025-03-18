@@ -7,16 +7,11 @@ int main() {
     scanf("%d", &N);
 
     // Loop to print the reverse right-angled triangle with alphabets
-    for (int i = 0; i < N; i++) {
-        // Print spaces for right alignment
-        for (int j = 0; j < i; j++) {
-            printf("  ");
-        }
-        // Print alphabets
-        char ch = 'A';
-        for (int j = 0; j < N - i; j++) {
+    for (int i = 1; i <= N; i++) {
+        char ch = 'A'; // Start from 'A' in each row
+        for (int j = 1; j <= i; j++) {
             printf("%c ", ch);
-            ch++;
+            ch++; // Move to next alphabet
         }
         printf("\n");
     }
