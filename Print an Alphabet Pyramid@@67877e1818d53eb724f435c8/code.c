@@ -8,15 +8,10 @@ int main() {
 
     // Loop to print the alphabet pyramid
     for (int i = 1; i <= N; i++) {
-        // Print spaces for alignment
-        for (int j = 1; j <= N - i; j++) {
-            printf(" ");
-        }
-        // Print alphabets from A to current row number
-        char ch = 'A';
+        char ch = 'A';  // Start with 'A' in each row
         for (int j = 1; j <= i; j++) {
             printf("%c ", ch);
-            ch++;
+            ch++;  // Move to the next letter
         }
         printf("\n");
     }
