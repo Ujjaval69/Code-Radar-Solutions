@@ -10,7 +10,7 @@ int main() {
     for (int i = 1; i <= N; i++) {
         // Print spaces
         for (int j = 1; j <= N - i; j++) {
-            printf("  ");
+            printf(" ");
         }
         // Print stars
         for (int j = 1; j <= i; j++) {
