@@ -11,7 +11,7 @@ int main() {
         for (int j = 0; j < N; j++) {
             // Print '*' for the first & last row, or first & last column
             if (i == 0 || i == N - 1 || j == 0 || j == N - 1) {
-                printf("* ");
+                printf("*");
             } else {
                 printf("  "); // Print space for the hollow part
             }
